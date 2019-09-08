@@ -4,7 +4,7 @@ TEXT = """Hello Mr. Sam, how are you doing today? The weather is great, and Mone
 TokenizedWords=word_tokenize(TEXT)
 StopWords=set(stopwords.words("english"))
 FilteredWord=[word for word in TokenizedWords if word not in StopWords]
-print("===FilteredWord===")
+print("====FilteredWord====")
 print(FilteredWord)
-print("===TokenizedWords===")
+print("====TokenizedWords====")
 print(TokenizedWords)
